@@ -326,7 +326,21 @@ tr.subblk td.mlab{background:#eef2fb;padding-left:26px}
 </footer>
 </main>
 <script>
+
 let D=null;
+Promise.all([
+  fetch('./meta.json').then(function(r){ return r.json(); }),
+  fetch('./rows-1.json').then(function(r){ return r.json(); }),
+  fetch('./rows-2.json').then(function(r){ return r.json(); }),
+  fetch('./rows-3.json').then(function(r){ return r.json(); })
+]).then(function(parts){
+  var meta = parts[0];
+  var rows = parts[1].concat(parts[2]).concat(parts[3]);
+  meta.rows = rows;
+  D = meta;
+  init();
+}).catch(function(e){ console.error('Failed to load dashboard data', e); });
+
 const state = {
   channel: 'Overall',
   country: 'all',
@@ -862,7 +876,6 @@ if(_ca) _ca.onclick = () => { state.mopen = {}; renderMarkets(); };
 render();
 }
 
-fetch('./data.json').then(function(r){ return r.json(); }).then(function(d){ D=d; init(); }).catch(function(e){ console.error('Failed to load dashboard data', e); });
 </script>
 </body>
 </html>

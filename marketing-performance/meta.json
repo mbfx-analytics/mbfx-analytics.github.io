@@ -1,0 +1,549 @@
+{
+ "month": "September 2026",
+ "days": 22,
+ "dim": 30,
+ "period": "1–22 September 2026",
+ "planBasis": "Full-month plan from the 10 September 2026 marketing budget ($1.2M: $700k PPC, $500k Social), prorated to day 22 of 30 for spend, leads and CPL pacing.",
+ "source": "Power BI — Daily MW Report semantic model, live query for 1–22 September 2026",
+ "show": [
+  "UAE",
+  "KSA",
+  "Qatar",
+  "Oman",
+  "Jordan",
+  "Lebanon",
+  "Syria",
+  "Tunisia",
+  "Morocco",
+  "Switzerland",
+  "Spain",
+  "Germany",
+  "Poland",
+  "Turkey",
+  "Canada",
+  "Australia",
+  "Mexico",
+  "Chile",
+  "Peru",
+  "Argentina",
+  "Uruguay"
+ ],
+ "grand": {
+  "PPC": {
+   "spend": 345923.41,
+   "clicks": 36333.0,
+   "cpc": 9.520915146010513,
+   "leads": 1998.0,
+   "cpl": 173.13483983983983,
+   "accounts": 625.0,
+   "cpa": 553.477456,
+   "l2a": 31.28128128128128,
+   "funded": 52.0,
+   "cpfa": 6652.3732692307685,
+   "a2f": 8.32,
+   "tdep": 24272.39,
+   "twdr": -1669.53,
+   "nmi": 22602.86,
+   "roi": 0.06534064867133452,
+   "ftd": 35503.14,
+   "redep": -11230.75,
+   "aas": 682.7526557692307
+  },
+  "Social": {
+   "spend": 169354.57,
+   "clicks": 160304.0,
+   "cpc": 1.0564587907974847,
+   "leads": 2868.0,
+   "cpl": 59.04971059972106,
+   "accounts": 890.0,
+   "cpa": 190.2860337078652,
+   "l2a": 31.03207810320781,
+   "funded": 36.0,
+   "cpfa": 4704.293611111111,
+   "a2f": 4.044943820224719,
+   "tdep": 33526.04,
+   "twdr": -22384.27,
+   "nmi": 11141.77,
+   "roi": 0.06578960343378985,
+   "ftd": 15288.55,
+   "redep": 18237.49,
+   "aas": 424.68185
+  },
+  "Overall": {
+   "spend": 515277.98,
+   "clicks": 196637.0,
+   "cpc": 2.620452814068563,
+   "leads": 4866.0,
+   "cpl": 105.89354295108919,
+   "accounts": 1515.0,
+   "cpa": 340.1174785478548,
+   "l2a": 31.134401972872997,
+   "funded": 88.0,
+   "cpfa": 5855.431590909091,
+   "a2f": 5.808580858085809,
+   "tdep": 57798.43,
+   "twdr": -24053.8,
+   "nmi": 33744.63,
+   "roi": 0.06548820502673142,
+   "ftd": 50791.68,
+   "redep": 7006.75,
+   "aas": 577.1782352272727
+  }
+ },
+ "grandE": {
+  "PPC": {
+   "spend": 513333.33,
+   "leads": 4107.34,
+   "cpl": 124.97945001825319
+  },
+  "Social": {
+   "spend": 366666.67,
+   "leads": 8506.43,
+   "cpl": 43.104641398066704
+  },
+  "Overall": {
+   "spend": 880000.0,
+   "leads": 12613.77,
+   "cpl": 69.76500938462308
+  }
+ },
+ "desks": [
+  {
+   "team": "Danny",
+   "markets": "GCC & MENA",
+   "staff": 7,
+   "ppc": {
+    "a": 161.7,
+    "e": 682.0
+   },
+   "soc": {
+    "a": 164.2,
+    "e": 713.7
+   },
+   "tot": {
+    "a": 325.9,
+    "e": 1395.6
+   }
+  },
+  {
+   "team": "Johny Spanioli",
+   "markets": "GCC & MENA",
+   "staff": 9,
+   "ppc": {
+    "a": 161.7,
+    "e": 682.0
+   },
+   "soc": {
+    "a": 164.2,
+    "e": 713.7
+   },
+   "tot": {
+    "a": 325.9,
+    "e": 1395.6
+   }
+  },
+  {
+   "team": "Ahmad Al-Alem",
+   "markets": "GCC & MENA",
+   "staff": 6,
+   "ppc": {
+    "a": 81.5,
+    "e": 299.8
+   },
+   "soc": {
+    "a": 63.0,
+    "e": 303.1
+   },
+   "tot": {
+    "a": 144.5,
+    "e": 602.8
+   }
+  },
+  {
+   "team": "Salam",
+   "markets": "GCC & MENA",
+   "staff": 8,
+   "ppc": {
+    "a": 161.7,
+    "e": 682.0
+   },
+   "soc": {
+    "a": 164.2,
+    "e": 713.7
+   },
+   "tot": {
+    "a": 325.9,
+    "e": 1395.6
+   }
+  },
+  {
+   "team": "Abu Dhabi Office",
+   "markets": "UAE",
+   "staff": 9,
+   "ppc": {
+    "a": 41.4,
+    "e": 108.6
+   },
+   "soc": {
+    "a": 12.4,
+    "e": 97.8
+   },
+   "tot": {
+    "a": 53.8,
+    "e": 206.4
+   }
+  },
+  {
+   "team": "Tunis Office",
+   "markets": "Tunisia · Morocco",
+   "staff": 11,
+   "ppc": {
+    "a": 59.0,
+    "e": 0.0
+   },
+   "soc": {
+    "a": 469.0,
+    "e": 1222.2
+   },
+   "tot": {
+    "a": 528.0,
+    "e": 1222.2
+   }
+  },
+  {
+   "team": "Dubai INTL - Andreas",
+   "markets": "Europe · Australia",
+   "staff": 8,
+   "ppc": {
+    "a": 806.4,
+    "e": 1061.7
+   },
+   "soc": {
+    "a": 261.0,
+    "e": 1188.1
+   },
+   "tot": {
+    "a": 1067.4,
+    "e": 2249.9
+   }
+  },
+  {
+   "team": "BDM Intl - Marc",
+   "markets": "Europe",
+   "staff": 4,
+   "ppc": {
+    "a": 78.6,
+    "e": 101.1
+   },
+   "soc": {
+    "a": 26.5,
+    "e": 119.3
+   },
+   "tot": {
+    "a": 105.1,
+    "e": 220.4
+   }
+  },
+  {
+   "team": "Turkey Team",
+   "markets": "Turkey",
+   "staff": 4,
+   "ppc": {
+    "a": 0.0,
+    "e": 0.0
+   },
+   "soc": {
+    "a": 169.0,
+    "e": 916.7
+   },
+   "tot": {
+    "a": 169.0,
+    "e": 916.7
+   }
+  },
+  {
+   "team": "HK INTL - Mahmoud",
+   "markets": "Canada · Australia",
+   "staff": 7,
+   "ppc": {
+    "a": 276.0,
+    "e": 490.2
+   },
+   "soc": {
+    "a": 190.5,
+    "e": 359.0
+   },
+   "tot": {
+    "a": 466.5,
+    "e": 849.2
+   }
+  },
+  {
+   "team": "Latam - Mexico",
+   "markets": "Mexico",
+   "staff": 9,
+   "ppc": {
+    "a": 0.0,
+    "e": 0.0
+   },
+   "soc": {
+    "a": 143.0,
+    "e": 733.3
+   },
+   "tot": {
+    "a": 143.0,
+    "e": 733.3
+   }
+  },
+  {
+   "team": "Latam - Colombia",
+   "markets": "Chile · Peru · Uruguay",
+   "staff": null,
+   "ppc": {
+    "a": 0.0,
+    "e": 0.0
+   },
+   "soc": {
+    "a": 185.0,
+    "e": 692.6
+   },
+   "tot": {
+    "a": 185.0,
+    "e": 692.6
+   }
+  },
+  {
+   "team": "Latam - Argentina",
+   "markets": "Argentina",
+   "staff": 4,
+   "ppc": {
+    "a": 0.0,
+    "e": 0.0
+   },
+   "soc": {
+    "a": 203.0,
+    "e": 733.3
+   },
+   "tot": {
+    "a": 203.0,
+    "e": 733.3
+   }
+  }
+ ],
+ "deskTot": {
+  "ppc": {
+   "a": 1828.0,
+   "e": 4107.4
+  },
+  "soc": {
+   "a": 2215.0,
+   "e": 8506.5
+  },
+  "tot": {
+   "a": 4043.0,
+   "e": 12613.6
+  },
+  "staff": 86
+ },
+ "deskDays": 22,
+ "grandPpcSplit": {
+  "Generic": {
+   "spend": 267044.3,
+   "clicks": 27279.0,
+   "cpc": 9.789372777594487,
+   "leads": 1610.0,
+   "cpl": 165.8660248447205,
+   "accounts": 0,
+   "cpa": null,
+   "l2a": 0.0,
+   "funded": 0,
+   "cpfa": null,
+   "a2f": null
+  },
+  "Brand": {
+   "spend": 20679.76,
+   "clicks": 1888.0,
+   "cpc": 10.953262711864408,
+   "leads": 65.0,
+   "cpl": 318.1501538461539,
+   "accounts": 0,
+   "cpa": null,
+   "l2a": 0.0,
+   "funded": 0,
+   "cpfa": null,
+   "a2f": null
+  },
+  "Competitor": {
+   "spend": 58199.35,
+   "clicks": 7166.0,
+   "cpc": 8.121595032096009,
+   "leads": 323.0,
+   "cpl": 180.18374613003095,
+   "accounts": 0,
+   "cpa": null,
+   "l2a": 0.0,
+   "funded": 0,
+   "cpfa": null,
+   "a2f": null
+  }
+ },
+ "grandAssets": {
+  "PPC": {
+   "Gold": {
+    "spend": 6068.75,
+    "clicks": 1018.0,
+    "cpc": 5.961444007858547,
+    "leads": 14.0,
+    "cpl": 433.48214285714295,
+    "accounts": 2.0,
+    "cpa": 3034.3750000000005,
+    "l2a": 14.285714285714286,
+    "funded": 0.0,
+    "cpfa": null,
+    "a2f": 0.0
+   },
+   "Generic": {
+    "spend": 260975.55,
+    "clicks": 26261.0,
+    "cpc": 9.937761319066295,
+    "leads": 1596.0,
+    "cpl": 163.51851503759397,
+    "accounts": 461.0,
+    "cpa": 566.1074837310194,
+    "l2a": 28.884711779448622,
+    "funded": 35.0,
+    "cpfa": 7456.444285714285,
+    "a2f": 7.592190889370933
+   }
+  },
+  "Social": {
+   "Bonus": {
+    "spend": 37742.47,
+    "clicks": 36916.0,
+    "cpc": 1.022387853505255,
+    "leads": 721.0,
+    "cpl": 52.34739251040221,
+    "accounts": 241.0,
+    "cpa": 156.60775933609955,
+    "l2a": 33.42579750346741,
+    "funded": 7.0,
+    "cpfa": 5391.781428571428,
+    "a2f": 2.904564315352697
+   },
+   "Gold": {
+    "spend": 69649.18,
+    "clicks": 57688.0,
+    "cpc": 1.2073426015809179,
+    "leads": 1126.0,
+    "cpl": 61.855399644760205,
+    "accounts": 325.0,
+    "cpa": 214.3051692307692,
+    "l2a": 28.863232682060392,
+    "funded": 12.0,
+    "cpfa": 5804.098333333332,
+    "a2f": 3.6923076923076925
+   },
+   "Stocks": {
+    "spend": 36707.37,
+    "clicks": 50261.0,
+    "cpc": 0.7303350510336046,
+    "leads": 771.0,
+    "cpl": 47.61007782101168,
+    "accounts": 225.0,
+    "cpa": 163.14386666666667,
+    "l2a": 29.182879377431906,
+    "funded": 11.0,
+    "cpfa": 3337.0336363636366,
+    "a2f": 4.888888888888889
+   },
+   "USPs": {
+    "spend": 19432.21,
+    "clicks": 13991.0,
+    "cpc": 1.3889078693445789,
+    "leads": 168.0,
+    "cpl": 115.66791666666668,
+    "accounts": 60.0,
+    "cpa": 323.8701666666667,
+    "l2a": 35.714285714285715,
+    "funded": 2.0,
+    "cpfa": 9716.105000000001,
+    "a2f": 3.3333333333333335
+   },
+   "Forex": {
+    "spend": 2804.55,
+    "clicks": 572.0,
+    "cpc": 4.90305944055944,
+    "leads": 27.0,
+    "cpl": 103.8722222222222,
+    "accounts": 10.0,
+    "cpa": 280.455,
+    "l2a": 37.03703703703704,
+    "funded": 0.0,
+    "cpfa": null,
+    "a2f": 0.0
+   },
+   "Copy Trading": {
+    "spend": 3018.79,
+    "clicks": 876.0,
+    "cpc": 3.446107305936073,
+    "leads": 18.0,
+    "cpl": 167.71055555555554,
+    "accounts": 4.0,
+    "cpa": 754.6975,
+    "l2a": 22.22222222222222,
+    "funded": 0.0,
+    "cpfa": null,
+    "a2f": 0.0
+   },
+   "Others": {
+    "spend": 0.0,
+    "clicks": 0.0,
+    "cpc": null,
+    "leads": 37.0,
+    "cpl": 0.0,
+    "accounts": 25.0,
+    "cpa": 0.0,
+    "l2a": 67.56756756756756,
+    "funded": 4.0,
+    "cpfa": 0.0,
+    "a2f": 16.0
+   }
+  }
+ },
+ "assetTypes": [
+  "Generic",
+  "Gold",
+  "Bonus",
+  "Stocks",
+  "USPs",
+  "Copy Trading",
+  "Forex",
+  "Others"
+ ],
+ "execSummary": {
+  "period": "September 2026 (to date)",
+  "activations": [
+   "New Brand campaigns launched for Germany (English), Switzerland (French), Qatar (English) and Oman.",
+   "Reactivated Qatar and KSA Brand/Generic campaigns with adjusted budgets after a hold.",
+   "French Generic search campaigns started to expand language coverage.",
+   "Gold and Bonus campaigns launched in six new social markets: France, Italy, Argentina, Colombia, Mexico and Peru/Chile.",
+   "Lead-gen forms and an Instant Forms flow built and tested for Gold, Stocks, Copy Trading, Bonus and Forex.",
+   "Uruguay went live on the LATAM social desk."
+  ],
+  "optimizations": [
+   "Paused Generic search campaigns across 13 markets (Scandinavia, Morocco, Tunisia, Oman, UAE, India, Kazakhstan, Greece, Netherlands, Norway, Sweden, Turkey, Poland) to align spend with current priorities.",
+   "Switzerland Brand expanded from two cities to full-country targeting.",
+   "Three Switzerland French Generic ad groups (Gold, Instrument, Forex) paused after $1.8K / $3K / $1.1K spend with 0–1 conversions each.",
+   "Germany Commodities ad groups (English and German) paused after roughly $1.5K combined spend with zero conversions.",
+   "Tunisia French Broker campaign paused after $1.5K spend for a single lead.",
+   "Meta budget rebalanced in Tunisia (+$50/day Bonus, −$50/day Stocks); ongoing negative-keyword and search-term cleanup across Search campaigns."
+  ],
+  "analysisFlags": [
+   "Investigated a Brand campaign spend spike; re-enabled AI Max and reverted keyword match types to Broad to restore control.",
+   "Australia Brand: identified ad-group overlap after a match-type change and recommended pausing the duplicate.",
+   "OTP/verification issues flagged on Malaysia, Azerbaijan and Kazakhstan demo-competition landing pages via session recordings; fixes in progress.",
+   "Dedicated MEX-market social page requested across channels by management.",
+   "Session-recording reviews of Australia Competitor, Poland and Sweden pages found no further landing-page issues."
+  ]
+ }
+}
